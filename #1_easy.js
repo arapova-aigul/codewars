@@ -30,3 +30,13 @@ function isDivideBy(a,b,c) {
 function capitalizeWord(word) {
     return word[0].toUpperCase() + word.slice(1);
 }
+
+/*
+    Name: Century From Year
+    Description: The first century spans from the year 1 up to and including the year 100, the second 
+    century - from the year 101 up to and including the year 200. Given a year, return the century it is in.
+*/
+
+function century(year) {
+    return (year % 100 == 0) ? (year / 100) : Math.floor(year / 100) + 1;
+}
