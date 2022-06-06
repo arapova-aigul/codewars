@@ -123,3 +123,12 @@ function digits(n) {
 function opposite(number) {
     return - number;
 }
+
+/*
+    Name: Perimeter sequence
+    Description: The first three stages of a sequence are shown.
+*/
+
+function perimeterSequence(a,n) {
+    return 4 * a * n;
+}
