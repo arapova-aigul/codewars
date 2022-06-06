@@ -80,3 +80,17 @@ function toBinary(n) {
 function even_or_odd(number) {
     return (number % 2 == 0) ? "Even" : "Odd";
 }
+
+/*
+    Name: Fake Binary
+    Description: Given a string of digits, you should replace any digit below 5 with '0' and any 
+    digit 5 and above with '1'. Return the resulting string. Input will never be an empty string.
+*/
+
+function fakeBin(x) {
+    const arrX =  x.split("");
+    const resArr = arrX.flatMap(item => (item < 5) ? 0 : 1);
+    let resStr = resArr.toString();
+    let result = resStr.split(',').join(''); 
+    return result;
+}
