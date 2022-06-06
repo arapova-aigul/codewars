@@ -114,3 +114,12 @@ function areaLargestSquare(r) {
 function digits(n) {
     return n.toString().length;
 }
+
+/*
+    Name: Opposite number
+    Description: Very simple, given an integer or a floating-point number, find its opposite.
+*/
+
+function opposite(number) {
+    return - number;
+}
