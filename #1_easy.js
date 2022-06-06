@@ -143,3 +143,12 @@ function perimeterSequence(a,n) {
 function removeChar(str) {
     return str.substr(1, str.length-2);
 }
+
+/*
+    Name: Remove String Spaces
+    Description: Simple, remove the spaces from the string, then return the resultant string.
+*/
+
+function noSpace(x) {
+    return x.split(" ").join("");
+}
