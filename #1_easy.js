@@ -40,3 +40,13 @@ function capitalizeWord(word) {
 function century(year) {
     return (year % 100 == 0) ? (year / 100) : Math.floor(year / 100) + 1;
 }
+
+/*
+    Name: Convert a Number to a String!
+    Description: We need a function that can transform a number into a string. 
+    What ways of achieving this do you know?
+*/
+
+function numberToString(num) {
+    return String(num);
+}
